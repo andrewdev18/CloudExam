@@ -12,7 +12,7 @@ header("Cache-Control: no-cache, must-revalidate");
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Inicio de Sesión</title>
+    <title>Login - Nuevo Commit</title>
 
     <!-- Custom fonts for this template-->
     <link href="<?= base_url(); ?>assets/js/panel/fontawesome-free/css/font-awesome.min.css" rel="stylesheet" type="text/css">
