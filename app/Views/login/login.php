@@ -12,7 +12,7 @@ header("Cache-Control: no-cache, must-revalidate");
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Login</title>
+    <title>Inicio de Sesión</title>
 
     <!-- Custom fonts for this template-->
     <link href="<?= base_url(); ?>assets/js/panel/fontawesome-free/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -53,7 +53,7 @@ header("Cache-Control: no-cache, must-revalidate");
       <input type="password" id="clave" name="clave" class="form-control" placeholder="Contraseña" required minlength="6">
       <div class="checkbox mb-3">
         <label>
-          <input type="checkbox" value="remember-me"> Recordar mi sesión</label>
+          <input type="checkbox" value="remember-me"> Recordar mi usuario</label>
       </div>
       <div class="row">
         <div class="col">
@@ -62,7 +62,7 @@ header("Cache-Control: no-cache, must-revalidate");
         </div>
         <div class="col">
           <button class="btn w-100  btn-primary " type="submit">
-              <b><i class="fa fa-sign-in" aria-hidden="true"></i> Ingresar</b></button>
+              <b><i class="fa fa-sign-in" aria-hidden="true"></i> Acceder</b></button>
         </div>
        
       </div>
