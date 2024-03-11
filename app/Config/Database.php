@@ -26,9 +26,9 @@ class Database extends Config
      */
     public array $default = [
         'DSN'          => '',
-        'hostname'     => 'localhost',
+        'hostname'     => 'awseb-e-b32tmvpsp3-stack-awsebrdsdatabase-yhfw7vl6yylw.c92es4wo2ex2.us-east-1.rds.amazonaws.com',
         'username'     => 'root',
-        'password'     => '',
+        'password'     => 'admin123',
         'database'     => 'tienda',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
@@ -51,9 +51,9 @@ class Database extends Config
      */
     public array $tests = [
         'DSN'         => '',
-        'hostname'    => '127.0.0.1',
-        'username'    => '',
-        'password'    => '',
+        'hostname'    => 'awseb-e-b32tmvpsp3-stack-awsebrdsdatabase-yhfw7vl6yylw.c92es4wo2ex2.us-east-1.rds.amazonaws.com',
+        'username'    => 'root',
+        'password'    => 'admin123',
         'database'    => ':memory:',
         'DBDriver'    => 'SQLite3',
         'DBPrefix'    => 'db_',  // Needed to ensure we're working correctly with prefixes live. DO NOT REMOVE FOR CI DEVS
